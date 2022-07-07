@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel Reservation</title>
+    <link rel="stylesheet" href="./Flyeasy.css">
+</head>
+<body>
+<!--FRAME ONE-->
+<header>
+    <h3 class="logo">FLYEASY <img src="./frame1/plane.png" alt=""></h3>
+<!--Flyeasy links-->
+<div class="nav-links">
+    <ul class="li">
+        <li><a href="Packages.html">Refersh back to Packages</a></li>
+    </ul>
+    <button class="hamburger">
+        <div class="bar"></div>
+    </button>
+</div>
+</header>
+<!--mobile nav-bar-->
+<nav class="mobile-nav">
+    <h3 class="logo" style="color: white;">FLYEASY <img src="./frame1/plane.png" alt=""></h3>
+    <a href="index.html">Home</a>
+    <a href="bookings.html">Bookings</a>
+    <a href="Packages.html">Packages</a>
+    <a href="login.html">Login</a>
+    <a href="signUp.html">Signup</a>
+</nav>
+<!--Hotel reervation-->
+<div class="hotel-things">
+<form action="">
+    <div class="hotel-log">
+        <h4 class="hotel">Hotel Reservation</h4> <br><br><br>
+         <label class="email-pass" for="firstname">First name:</label>
+         <br>
+         <input class="input-login" type="text">
+         <br>
+         <label class="email-pass" for="lastname">Last name:</label>
+         <br>
+         <input class="input-login" type="text">
+         <br>
+         <label class="email-pass" for="Email">Email:</label>
+         <br>
+         <input class="input-login" type="text"> <br>
+         <label class="email-pass" for="Phone number">Phone number:</label>
+         <br>
+         <input class="input-login" type="text"> <br>
+         <label class="email-pass" for="ratings">Hotel rating:</label>
+         <br>
+          <select class="select" name="" id="">
+             <option value="">Good</option>
+             <option value="">Average</option>
+             <option value="">Poor</option>
+         </select>
+         <br>
+         <label class="email-pass" for="budget">Budget Amount:</label>
+         <br>
+         <select class="select" name="" id="">
+            <option value="">$5k USD</option>
+            <option value="">$10K USD</option>
+            <option value="">$15K USD</option>
+            <option value="">Above $15k USD</option>
+        </select>
+        <br>
+        <label class="email-pass" for="check-in">Check-In date:</label>
+        <br>
+         <input class="check-in" type="date" name="" id="">
+         <br>
+         <label class="email-pass" for="check-out">Check-Out date:</label>
+        <br>
+         <input class="check-in" type="date" name="" id="">
+         <br>
+         <label class="email-pass" for="Email">Additional Information(optional):</label>
+         <br>
+         <textarea class="text-area" name="" id="" cols="60" rows="10">enter your text here</textarea>
+         <br>
+         <input type="submit" value="submit" class="hotel-in">
+    </div>
+    </form>
+</div>
+<script src="./fly.js"></script>
+</body>
+</html>

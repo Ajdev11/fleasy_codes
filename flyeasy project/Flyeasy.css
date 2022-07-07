@@ -1,0 +1,1605 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Logo styling*/
+.logo{
+    color: blue;
+}
+.logo, h3{
+    font-size: 36px;
+    margin-left: 20px;
+    font-family: monospace;
+    padding: 10px;
+}
+/*links styling*/
+ul a{
+    text-decoration: none;
+    color:  blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+}
+ul li{
+    float: right;
+    margin-top: -20px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+ul a:hover{
+    color: darkblue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+ul .sign{
+    width: 100px;
+    height: 30px;
+    background-color:  blue;
+    border-radius: 15px;
+    border: 1px solid blue;
+    text-align: center;
+}
+.nav-links{
+    margin-top: -25px;
+}
+.mobile-nav{
+    display: none;
+}
+/*main styling for FRAME 1*/
+.explore{
+    padding: 100px;
+    color: orange;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-duration: 3s;
+    animation-name: slideIn;
+    animation-iteration-count: infinite;
+}
+@keyframes slideIn{
+    0%{
+        margin-left: -50px;
+        width: 50%;
+    }
+    75%{
+        color: green;
+    }
+    100%{
+        margin-left:50px;
+        width: 50%;
+        color: steelblue;
+    }
+   }
+.take{
+    font-size: 15px;
+    font-family: monospace;
+    margin-top: -80px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+#top_destination{
+    font-size: 20px;
+    margin-left: 100px;
+    border: 1px solid blue;
+    width: 200px;
+    height: 33px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+.vector1{
+    float: right;
+    margin-top: -245px;
+    width: 300px;
+}
+.vector{
+    float: right;
+    margin-top: -100px;
+    margin-right: -190px;
+}
+.point1{
+    float: right;
+    margin-top: -230px;
+    margin-right: -360px;
+}
+.point2{
+    float: right;
+    margin-top: -170px;
+    margin-right: -220px;
+}
+.point3{
+    float: right;
+    margin-top: -130px;
+    margin-right: -340px;
+}
+.point4{
+    float: right;
+    margin-top: -10px;
+    margin-right: -330px;
+}
+.line4{
+    float: right;
+    margin-top: -165px;
+    margin-right: -430px;
+}
+.line3{
+    float: right;
+    margin-top: -110px;
+    margin-right: -260px;
+}
+.vector2{
+    float: right;
+    margin-top: -150px;
+    margin-right: -295px;
+    animation-duration: 3s;
+    animation-name: plane1;
+    animation-iteration-count: infinite;
+}
+.vector5{
+    float: right;
+    margin-top: -50px;
+    margin-right: -350px;
+    animation-duration: 3s;
+    animation-name: plane1;
+    animation-iteration-count: infinite;
+}
+/*keyframe for planes*/
+@keyframes plane1{
+    from{
+        margin-left: 10px;
+        width: 3%;
+    }
+    to{
+        margin-left: 20px;
+        width: 0.5%;
+    }
+}
+.eclipse1{
+    float: right;
+    margin-top: -110px;
+    margin-right: -150px;
+    width: 260px;
+}
+.phone{
+    float: right;
+    margin-top: -180px;
+    margin-right: -260px;
+    width: 300px;
+}
+/*section styling for frame2*/
+.airways{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.airlines{
+    display: inline-block;
+    margin-top: 100px;
+}
+.emirate{
+    margin-top:-65px;
+}
+.luthansa{
+    margin: 15px;
+}
+.turkish{
+    margin-top: 10px;
+}
+.eth{
+    margin-top: -10px;
+}
+/*section styling for frame3*/
+.frame3{
+    background-color: gainsboro;
+    height: 210px;
+}
+.provide{
+    text-align: center;
+    word-spacing: 10px;
+    color: green;
+    font-weight: normal;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.values{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.get{
+    font-size: 12px;
+    color: black;
+}
+.core{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*section styling for frame4*/
+.frame4{
+    background-color: #fff;
+    height: 250px;
+    margin-top: 50px;
+}
+.holidays{
+    text-decoration: none;
+    margin-left: 600px;
+    text-align: center;
+    word-spacing: 10px;
+    padding: 20px;
+    color: maroon;
+    font-weight: normal;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.places{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*section styling for frame5*/
+ .frame5{
+    background-color: gainsboro;
+    height: 250px;
+    margin-top: 50px;
+ }
+ .big-world{
+     text-align: center;
+     padding: 10px;
+     font-family: monospace;
+     font-size: 25px;
+     color: dodgerblue;
+     font-weight: normal;
+ }
+.container-1{
+    width: 900px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid white;
+    margin: auto;
+    padding: 3px;
+    border-radius: 5px;
+}
+.container-2{
+    width: 550px;
+    height: 60px;
+    background-color: gainsboro;
+    margin: auto;
+    margin-top: 6px;
+    margin-left: 90px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+}
+.pass{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 20px;
+}
+.container-3{
+    width: 650px;
+    height: 60px;
+    background-color: gainsboro;
+    margin: auto;
+    margin-top: -1px;
+    border: 1px solid grey;
+    margin-left: 90px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.line{
+    display: flex;
+    height: 60px;
+    width: 1px;
+    background-color: grey;
+}
+.direction{
+    display: flex;
+    color: grey;
+    font-weight: bolder;
+    padding: 10px;
+}
+.lag{
+    margin-top: 40px;
+    margin-left: -110px;
+    font-weight: bold;
+}
+.icon{
+    margin-left: 225px;
+    margin-top: -45px;
+}
+.rectangle{
+    float: right;
+    margin-top: -50px;
+    margin-right: 70px;
+}
+.search{
+    float: right;
+    margin-top: -50px;
+    margin-right: -80px;
+}
+/*styling for frame6*/
+.travellers{
+font-weight: normal;
+color: #1f3044;
+ margin: 15px;
+ font-size: 30px;
+ text-align: center;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.activate{
+ margin-left: 580px;
+ margin-top: 40px;
+}
+.memories{
+    color: #1181b2;
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 25px;
+    word-spacing: 5px;
+}
+.ecclipse8{
+    margin-top: -150px;
+    margin-left: 350px;
+}
+.rec20{
+    margin-top: -180px;
+    margin-left: 180px;
+}
+.arrange{
+    margin-left: -80px;
+}
+.c-s{
+    border: 1px solid gainsboro;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: bolder;
+    height: 60px;
+}
+.square{
+     float: right;
+     margin-right: 150px;
+     margin-top: -140px;
+}
+.nums{
+    font-size: 25px;
+    color: #1181b2;
+}
+.c-s1{
+    border: 1px solid gainsboro;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: bolder;
+    height: 60px;
+    margin-top: 5px;
+}
+.testimonial{
+    color: blue;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: normal;
+    margin: 25px;
+    text-align: center;
+}
+.customers{
+    font-family: monospace;
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+}
+.service{
+    border: 2px solid gainsboro;
+    width: 480px;
+    height: 110px;
+    margin-top: 40px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 275px;
+}
+.comment{
+    padding: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #1181b2;
+}
+.client{
+    margin-left: 6px;
+}
+.obasan{
+    margin-left: 70px;
+    margin-top: -50px;
+    font-family: monospace;
+}
+.service-1{
+    border: 2px solid gainsboro;
+    width: 480px;
+    height: 110px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-top: 170px;
+    margin-left: 800px;
+}
+.client-1{
+    float: right;
+    margin-right: 6px;
+}
+.Dumebi{
+    float: right;
+    font-family: monospace;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.image1{
+    margin-top: -300px;
+    margin-left: 290px;
+    width: 230px;
+    height: 330px;
+    border-radius: 10px;
+}
+/*styling for footer page*/
+.footer-page{
+    background-color: #1181b2;
+    display: flex;
+    justify-content: space-evenly;
+    height: 240px;
+}
+.logo-footer{
+    color: #212221;
+    margin-left: -13px;
+}
+.footer-1{
+    color: #212221;  
+    margin-left: -100px;
+}
+.footer-paragraph1{
+    font-family: monospace;
+    font-size: 16px;
+}
+.media{
+    margin-top: 15px;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: -35px;
+    border-radius: 50px;
+}
+.social{
+    border-radius: 50px;
+}
+.footer2{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.quick{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-paragraph2{
+    padding: 8px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.footer-link{
+    text-decoration: none;
+     color: white;
+}
+/*styling for Santorini page */
+.santo{
+    border: 1px solid gainsboro;
+    width: 1100px;
+    height: 1000px;
+    margin-left: 130px;
+    background-color: #1181b2;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+.santo ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.rini{
+    margin: 10px;
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+}
+.description{
+    margin: 15px;
+    font-size: 15px;
+}
+.ngn{
+    font-weight: bolder;
+}
+.container{
+    margin: 15px;
+}
+.t-c{
+    display: inline;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+}
+.nights{
+    border: 1px solid gainsboro;
+    width: 550px;
+    height: 210px;
+    border-radius: 2px;
+    margin-top: -1px;
+}
+.list{
+    padding: 8px;
+    padding-left: 50px;
+    margin: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.books{
+    margin: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.amount{
+    margin-top: 40px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.reserve{
+    margin: 15px;
+    border: 1px solid white;
+    background-color: black;
+    height: 29px;
+    width: 140px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: -40px;
+}
+.r-p{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.reserve a:hover{
+     color: #1181b2;
+     text-decoration: none;
+}
+/*Styling for reserve package page*/
+.p-r{
+    margin: 30px;
+    border: 1px solid white;
+    width: 660px;
+    height: 600px;
+    background-color: white;
+}
+.pack{
+    font-size: 40px;
+    margin: 15px;
+    font-weight: normal;
+    font-family: monospace;
+    color: #1181b2;
+}
+.ctn{
+    font-size: 20px;
+    margin: 15px;
+    font-weight: normal;
+}
+.packs{
+    margin: 15px;
+    border: 1px solid white;
+    width: 350px;
+    height: 420px;
+    background-color: #1181b2;
+    border-radius: 10px;
+    padding: 10px;
+}
+.label{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+.inp{
+    margin-top: 10px;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+.submit{
+    margin-top: 20px;
+}
+.reserve-now{
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #fff;
+    background-color: black;
+    margin-left: 100px;
+}
+.check-img{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.div-pack{
+    margin-top: 150px;
+}
+.pck{
+    border: 1px solid grey;
+    width: 450px;
+    height: 270px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: gainsboro;
+}
+.package-1{
+    margin-top: -20px;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+}
+.reference{
+    font-size: 15px;
+    font-family: monospace;
+    margin: 20px;
+}
+.man-in-reserve{
+    margin-top: -350px;
+}
+/*Styling for signup page*/
+.sign-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.man-is{
+    margin-top: -150px;
+    margin-left: 20px;
+}
+.form-sign{
+    border: 1px solid gainsboro;
+    width: 560px;
+    height: 600px;
+    background-color: #1181b2;
+    margin-right: -800px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.sign-head{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: monospace;
+    margin: 20px;
+    color: #fff;
+    text-align: center;
+}
+.email-pass{
+    font-size: 25px;
+    font-family: monospace;
+    margin: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+.input-sign{
+    margin: 20px;
+    height: 30px;
+    width: 450px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.sign1{
+    border: 1px solid grey;
+    width: 200px;
+    height: 30px;
+    margin-left: 160px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.sign-in{
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    background: black;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.sign2{
+    border: 1px solid grey;
+    width: 250px;
+    height: 40px;
+    margin-left: 140px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+}
+.sign-with{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.google{
+    margin-left: 190px;
+    margin-top: -40px;
+}
+.check{
+    margin: 20px;
+    width: 100px;
+    height: 16px;
+}
+.by{
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: normal;
+    margin-left: -60px;
+}
+/*Styling for login page*/
+.login-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.man-is{
+    margin-top: -150px;
+    margin-left: 20px;
+}
+.form-log{
+    border: 1px solid gainsboro;
+    width: 560px;
+    height: 500px;
+    background-color: #1181b2;
+    color: #fff;
+    margin-right: -800px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.login-head{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: monospace;
+    text-align: center;
+    margin: 20px;
+}
+.email-pass{
+    font-size: 20px;
+    font-family: monospace;
+    margin: 20px;
+    font-weight: normal;
+}
+.input-login{
+    margin: 20px;
+    height: 30px;
+    width: 450px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.forgot{
+    font-size: 15px;
+    font-family: monospace;
+    margin: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    color: red;
+}
+.log{
+    border: 1px solid grey;
+    width: 200px;
+    height: 30px;
+    margin-left: 160px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.login-sub{
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    background: black;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.log2{
+    border: 1px solid grey;
+    width: 250px;
+    height: 40px;
+    margin-left: 140px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+}
+.log-with{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.google{
+    margin-left: 190px;
+    margin-top: -40px;
+}
+/*styling for forgotten password*/
+.forgot-1{
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 200px;
+    display: grid;
+    justify-content: space-evenly;
+}
+.forgotten{
+    font-family: monospace;
+    font-size: 40px;
+    color: #1181b2;
+}
+.kindly{
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.mail{
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.inp-forgot{
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.reset{
+    margin-top: 20px;
+}
+.reset-password{
+    font-family: monospace;
+    color: blue;
+    font-size: 14px;
+    text-decoration: none;
+}
+/*Styling for Bookings page*/
+.bookings{
+    margin: 50px;
+    margin-top: 100px;
+}
+.books-1{
+    font-size: 30px;
+    font-family: monospace;
+}
+.e-book{
+    font-size: 15px;
+    font-family: monospace;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.inp-book{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 2px;
+}
+.check-booking{
+    text-decoration: none;
+    padding: 80px;
+    color: black;
+}
+.c-book{
+    margin-top: 20px;
+    border: 1px solid gainsboro;
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: lightblue;
+    font-family: monospace;
+    font-weight: bolder;
+}
+/*Styling for Package page*/
+.package-page{
+    margin: 100px;
+    margin-left: 20px;
+}
+.holiday-hotel{
+    font-family: monospace;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 400px;
+    height: 120px;
+}
+.h-p{
+    text-decoration: none;
+    color: black;
+}
+.line-through{
+    width: 399px;
+    height: 2px;
+    background-color: black;
+}
+
+/*Styling for Hotel reservation page*/
+.hotel-things{
+    margin: 20px;
+}
+.hotel-log{
+    border: 1px solid gainsboro;
+    width: 560px;
+    height: 1100px;
+    background-color: #1181b2;
+    margin-top: 20px;
+}
+.hotel{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: monospace;
+    margin: 20px;
+    color: #fff;
+    text-align: center;
+}
+.select{
+    margin: 20px;
+}
+.check-in{
+    margin: 20px;
+}
+.text-area{
+    margin: 20px;
+    color: green;
+}
+.hotel-submit{
+    border: 1px solid grey;
+    width: 100px;
+    height: 20px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin: auto;
+}
+.hotel-in{
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    background: black;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+/*media queries for phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width:768px){
+/*media for homepage*/
+header{
+    width: 150%;
+  }
+h3, .logo{
+     font-size: 60px;
+     font-family: monospace;
+     color: rgb(2, 21, 37);
+}
+.li{
+     display: none;
+}
+.hamburger{
+    display: block;
+    position: relative;
+    width: 55px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    float: right;
+    margin-top: -40px;
+    margin-right: 70px;
+}
+.hamburger .bar, .hamburger:after, .hamburger:before{
+    width: 100%;
+    content: "";
+    display: block;
+    height: 10px;
+    background-color:rgb(2, 21, 37);
+    margin: 6px 0px;
+    transition: 0.4s;
+}
+.hamburger.is-active:before{
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+.hamburger.is-active:after{
+    transform: rotate(45deg) translate(-9px, -8px);
+}
+.hamburger.is-active .bar{
+    opacity: 0;
+}
+.mobile-nav{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 55%;
+    font-size: 50px;
+    min-height: 35vh;
+    z-index: 98;
+    background-color: black;
+    padding-top: 20px;
+    transition: 0.4s;
+    border-bottom-right-radius: 20%;
+}
+.mobile-nav.is-active{
+    left: 0;
+}
+.mobile-nav a{
+        text-align: center;
+        display:block;
+        width: 100%;
+        max-width: 600px;
+        margin:0 auto 16px;
+        padding: 25px 16px;
+        background-color: #1181b2;
+        color: #fff;
+        text-decoration:none;
+        font-family: monospace;
+}
+.mobile-nav a:hover{
+    background-color: #fff;
+    color: black;
+}
+ .take{
+     font-size: 40px;
+     font-family: monospace;
+ }
+ main{
+    width: 150%;
+ }
+.explore{
+ font-size: 45px;
+ font-family:  monospace;
+ animation-duration: 3s;
+ animation-name: slideIn;
+ animation-iteration-count: infinite;
+ }
+/*key frames animation*/
+@keyframes slideIn{
+ 0%{
+     margin-left: -50px;
+     width: 50%;
+ }
+ 75%{
+     color: green;
+ }
+ 100%{
+     margin-left:50px;
+     width: 50%;
+     color: steelblue;
+ }
+}
+ #top_destination{
+    width: 230px;
+    height: 45px;
+    font-size: 45px;
+    background-color: #1a2238;
+ }
+ .man{
+     margin-top: 10px;
+ }
+ .airlines{
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: space-evenly;
+ }
+ .airlines{
+    margin-top: 400px;
+ }
+.frame3, .frame4, .frame5, .frame6, .frame7, .footer-page{
+    width: 150%;}
+ .provide{
+     font-size: 55px;
+     text-align: center;
+     color: green;
+     font-weight: normal;
+ }
+ .values{
+     font-size: 35px;
+ }
+.frame3{
+    height: 350px;
+    margin-top: 50px;
+}
+ .core{
+     font-size: 50px;
+ }
+ .get{
+     font-size:35px;
+     font-weight: normal;
+     color: green;
+ }
+ .holidays{
+     font-size: 55px;
+     margin-left: 550px;
+     color: #ff6a3d;
+     font-weight: normal;
+ }
+ .frame4{
+     height: 400px;
+     background-color: #fff;
+     margin-top: 50px;
+ }
+ .places{
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+    justify-content: space-evenly;
+ }
+ .places img{
+     width: 250px;
+     object-fit: cover;
+ }
+ .frame5{
+    height: 350px;
+    margin-top: 50px;
+ }
+ .big-world{
+     font-size: 55px;
+     color:#051622;
+     font-weight: normal;
+ }
+ .pass{
+     font-size: 20px;
+ }
+ .direction{
+    font-size: 35px;
+    color: green;
+    font-weight: normal;
+ }
+ .lag{
+     margin-top: 50px;
+     font-size: 30px;
+ }
+ .icon{
+     margin-left: 285px;
+     margin-top: -60px;
+ }
+.rectangle img{
+    height: 92px;
+    margin-top: -16px;
+    margin-right: -40px;
+}
+.line{
+    height: 90px;
+}
+ .container-1{
+    width: 1200px;
+    height: 200px;
+    background-color: white;
+}
+.container-2{
+    width: 750px;
+    height: 60px;
+    background-color: gainsboro;
+}
+.container-3{
+    width: 950px;
+    height: 90px;
+    background-color: gainsboro;
+}
+ .frame6{
+     margin-top: 150px;
+ }
+
+ .travellers{
+     font-size: 65px;
+     font-weight: bolder;
+     color: #1f3044;
+ }
+ .activate{
+     font-size: 30px;
+     font-family: monospace;
+     margin-left: 500px;
+
+ }
+ .arrange{
+     margin-left: -160px;
+ }
+ .memories{
+     font-size: 50px;
+     color: #1181b2
+ }
+ .square{
+     margin-right: 10px;
+ }
+ .c-s, .c-s1{
+     height: 65px;
+ }
+ .nums{
+     color: #1181b2;
+     font-weight: bold;
+ }
+ .frame7{
+     margin-top: 100px;
+ }
+ .image1{
+    margin-left: 120px;
+ }
+ .testimonial{
+     font-size: 60px;
+     text-align: center;
+     font-weight: normal;
+ }
+ .customers{
+     font-size: 30px;
+     font-family: monospace;
+ }
+ .service{
+     width: 580px;
+ }
+ .service-1{
+     margin-left: 900px;
+     width: 580px;
+ }
+ .logo-footer{
+     margin: 10px;
+ }
+ .footer-page{
+     margin-top: 300px;
+     height: 380px;
+     width: 150%;
+ }
+ .footer-paragraph1{
+     font-size: 25px;
+     font-family: monospace;
+     margin: 15px;
+ }
+ .footer-paragraph2{
+     font-size: 25px;
+     font-family: monospace;
+ }
+ /* media query for login page*/
+.login-1{
+    display: grid;
+    justify-items: center;
+    margin-top: 100px;
+}
+.form-log{
+    margin-top: -1200px;
+    margin-left: 130px;
+    height: 800px;
+    width: 600px;
+    background-color: #1181b2;
+    border-radius: 15px;
+}
+.login-head{
+    font-size: 55px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.email-pass{
+    font-size: 30px;
+}
+.forgot{
+    font-size: 35px;
+    color: white;
+    font-family: monospace;
+}
+.login-sub{
+    width: 200px;
+    font-size: 40px;
+    border-radius: 10px;
+    font-family: monospace;
+    background: black;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.log, .log2{
+    margin-top: 80px;
+}
+.input-login{
+    height: 50px;
+}
+.man-is{
+    margin-left: -400px;
+    margin-top: 350px;
+}
+/*media query for signup page*/
+.sign-1{
+    display: grid;
+    justify-items: center;
+}
+.form-sign{
+    margin-top: -1200px;
+    margin-left: 190px;
+    background-color: #1181b2;
+    height: 900px;
+    border-radius: 15px;
+    width: 650px;
+}
+.man-is{
+    margin-top: 350px;
+}
+.sign-head{
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.email-pass{
+    font-size: 30px;
+}
+.by{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.check{
+    width: 30px;
+    height: 30px;
+}
+.sign-in{
+    width: 200px;
+    font-size: 40px;
+    font-family: monospace;
+    background: black;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.sign1, .sign2{
+    margin-top: 30px;
+}
+.input-sign{
+    height: 50px;
+}
+/*media query for packages page*/
+.package-page{
+    width: 100%;
+    display: flex;
+}
+.holiday-hotel{
+    font-size: 30px;
+    height: 250px;
+    font-weight: bolder;
+    width: 800px;
+    float: left;
+    padding: 40px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.line-through{
+    width: 800px;
+    background-color: purple;
+    height: 5px;
+    border-radius: 10px;
+}
+/*media query for hotel-reservation page*/
+.hotel-things{
+    display:grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.hotel-log{
+    width: 900px;
+    height: 1800px;
+    background-color: #1181b2;
+    margin-left: 50px;
+}
+.hotel{
+    font-size: 70px;
+    color: white;
+}
+.input-login{
+    width: 700px;
+    margin: 20px;
+}
+.email-pass{
+    font-size: 45px;
+    font-weight: normal;
+    margin: 20px;
+}
+.select{
+    width: 150px;
+    font-size: 20px;
+}
+.text-area{
+    color: #4bac3f;
+    font-size: 25px;
+}
+.hotel-submit{
+    font-size: 30px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+.hot-sub{
+    margin-left:9px;
+    color: white;
+    font-weight: bolder;
+}
+/*media query for Bookings page*/
+.bookings-container{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.bookings{
+    margin-top: 30px;
+}
+.books-1{
+    font-size: 50px;
+    color: yellowgreen;
+}
+.c-book{
+    margin-top: 80px;
+}
+.inp-book{
+    width: 600px;
+    border-color: #79589f;
+    height: 50px;
+}
+.e-book{
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 100px;
+}
+.check-booking{
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+.nonames{
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    margin-top: 800px;
+}
+/*media query for Forgot page*/
+.forgot-1{
+    width: 100%;
+    display: flex;
+}
+.f-p{
+    margin-top: 50px;
+}
+.forgotten{
+    font-size: 70px;
+    color: burlywood;
+}
+.kindly, .mail{
+    font-size: 40px;
+    font-family: monospace;
+}
+.reset{
+    font-size: 40px;
+}
+.reset-password{
+    color: red;
+    font-size: 40px;
+}
+.group{
+    margin-top: 400px;  
+}
+.nonames1{
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    margin-top: 350px;
+}
+ /* media query for santorini query*/
+ .santo{
+     margin-top: 150px;
+     margin-left: -10px;
+     height: 1200px;
+ }
+.santo img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+.rini{
+    font-size: 70px;
+    font-family: monospace;
+    color: #79589f;
+    text-align: center;
+}
+.description{
+    font-size: 30px;
+    font-family: monospace;
+}
+.container{
+    display: inline-block;
+    margin-top:20px;
+}
+.t-c{
+    font-size: 20px;
+    padding: -5px;
+}
+.amount{
+    color: #79589f;
+    font-size: 50px;
+    margin-top: 100px;
+    font-family: monospace;
+}
+.reserve{
+    margin-left: 10px;
+}
+/*media query for Reserve-now*/
+.p-r{
+    margin-top: 150px;
+}
+.label{
+    font-size: 40px;
+    margin: 20px;
+    margin-top: 40px;
+    color: white;
+    font-weight: normal;
+}
+.inp{
+    width: 500px;
+    border-color: #79589f;
+    margin: 20px;
+    height: 40px;
+}
+.submit{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: normal;
+}
+#package-container{
+    display: grid;
+    justify-content: center;
+    margin-left: -300px;
+}
+.packs{
+     height: 800px;
+     width: 600px;
+     background-color: #1181b2;
+}
+.pack{
+    color: #79589f;
+    font-size: 60px;
+    font-weight: normal;
+}
+.ctn{
+    font-size: 40px;
+    color: steelblue;
+}
+.man-in-reserve{
+    margin-top: 750px;
+    margin-right: 200px;
+}
+}
+
